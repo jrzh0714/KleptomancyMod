@@ -1,0 +1,72 @@
+[02Jan2020 17:54:05.494] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.111, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\Jerry\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[02Jan2020 17:54:05.499] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_231 by Oracle Corporation
+[02Jan2020 17:54:06.382] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[02Jan2020 17:54:06.521] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\Jerry\Desktop\Kleptomancy Mod\run\config\fml.toml is not correct. Correcting
+[02Jan2020 17:54:06.537] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[02Jan2020 17:54:06.538] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: com.electronwill.nightconfig.core.io.ParsingException: Invalid TOML data: entry "[maxThreads]" defined twice in its table.
+[02Jan2020 17:54:06.539] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TableParser.checkDuplicateKey(TableParser.java:88)
+[02Jan2020 17:54:06.540] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:59)
+[02Jan2020 17:54:06.540] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:44)
+[02Jan2020 17:54:06.540] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[02Jan2020 17:54:06.540] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[02Jan2020 17:54:06.541] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[02Jan2020 17:54:06.541] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[02Jan2020 17:54:06.541] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[02Jan2020 17:54:06.541] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[02Jan2020 17:54:06.543] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
+[02Jan2020 17:54:09.073] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Jerry\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[02Jan2020 17:54:11.646] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[02Jan2020 17:54:24.652] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[02Jan2020 17:54:26.186] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.111, for MC 1.14.4 with MCP 20190829.143755
+[02Jan2020 17:54:26.186] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.111 Initialized
+[02Jan2020 17:54:26.410] [Client thread/INFO] [com.example.examplemod.ExampleMod/]: HELLO from Register Block
+[02Jan2020 17:54:29.881] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[02Jan2020 17:54:29.969] [Server-Worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Jerry\Desktop\Kleptomancy Mod\run\config\forge-client.toml is not correct. Correcting
+[02Jan2020 17:54:29.975] [Server-Worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
+[02Jan2020 17:54:29.975] [Server-Worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.zoomInMissingModelTextInGui was corrected from null to false
+[02Jan2020 17:54:29.975] [Server-Worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeCloudsEnabled was corrected from null to true
+[02Jan2020 17:54:29.975] [Server-Worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableStairSlabCulling was corrected from null to false
+[02Jan2020 17:54:29.975] [Server-Worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to false
+[02Jan2020 17:54:29.975] [Server-Worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeLightPipelineEnabled was corrected from null to true
+[02Jan2020 17:54:29.975] [Server-Worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.selectiveResourceReloadEnabled was corrected from null to true
+[02Jan2020 17:54:29.975] [Server-Worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to true
+[02Jan2020 17:54:29.975] [Server-Worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.allowEmissiveItems was corrected from null to true
+[02Jan2020 17:54:29.987] [modloading-worker-4/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM PREINIT
+[02Jan2020 17:54:29.988] [modloading-worker-4/INFO] [com.example.examplemod.ExampleMod/]: DIRT BLOCK >> minecraft:dirt
+[02Jan2020 17:54:29.988] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[02Jan2020 17:54:30.071] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[02Jan2020 17:54:30.075] [modloading-worker-4/INFO] [com.example.examplemod.ExampleMod/]: Got game settings net.minecraft.client.GameSettings@cac86a1
+[02Jan2020 17:54:30.699] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 28.1.111 Target: null
+[02Jan2020 17:54:30.700] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [examplemod] Starting version check at http://myurl.me/
+[02Jan2020 17:54:30.973] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_231]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_231]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_231]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945) ~[?:1.8.0_231]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_231]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_231]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900) ~[?:1.8.0_231]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_231]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_231]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 3 more
+[02Jan2020 17:54:33.709] [modloading-worker-4/INFO] [com.example.examplemod.ExampleMod/]: Hello world from the MDK
+[02Jan2020 17:54:33.709] [modloading-worker-4/INFO] [com.example.examplemod.ExampleMod/]: Got IMC [Hello world]
+[02Jan2020 17:54:34.617] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[02Jan2020 17:54:34.618] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[02Jan2020 17:54:34.787] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[02Jan2020 17:54:35.498] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[02Jan2020 17:54:35.501] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[02Jan2020 17:54:35.503] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[02Jan2020 17:54:35.758] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[02Jan2020 17:54:40.552] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
