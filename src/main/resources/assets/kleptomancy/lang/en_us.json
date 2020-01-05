@@ -1,6 +1,7 @@
 {
   "item.kleptomancy.kleptorune": "Kleptorune",
+  "item.kleptomancy.kleptosword": "Klepto Sword",
   "_comment": "Creative Tabs",
-  "ItemGroup.kleptomancy": "Kleptomancy"
+  "itemGroup.kleptomancy": "Kleptomancy"
 
 }

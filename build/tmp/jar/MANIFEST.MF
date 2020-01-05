@@ -3,7 +3,7 @@ Implementation-Title: Kleptomancy Mod
 Implementation-Version: 1.0
 Specification-Vendor: examplemodsareus
 Specification-Title: Kleptomancy
-Implementation-Timestamp: 2020-01-03T20:43:40-0500
+Implementation-Timestamp: 2020-01-04T16:32:16-0500
 Specification-Version: 1
 Implementation-Vendor: examplemodsareus
 

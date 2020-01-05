@@ -1,10 +1,13 @@
 package com.jrzh.Kleptomancy;
 
 import com.jrzh.Kleptomancy.items.Kleptorune;
+import com.jrzh.Kleptomancy.items.Kleptosword;
 import com.jrzh.Kleptomancy.setup.ModSetup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -84,6 +87,8 @@ public class Kleptomancy
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
 
             event.getRegistry().register(new Kleptorune());
+            event.getRegistry().register(new Kleptosword());
+
         }
     }
 }

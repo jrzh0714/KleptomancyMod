@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xnx",
+    "xxx"
+  ],
+  "key" : {
+    "x": {
+      "item": "minecraft:gold_ingot"
+    },
+    "n": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "kleptomancy:kleptorune"
+  }
+
+}
